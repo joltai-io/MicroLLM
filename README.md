@@ -18,4 +18,14 @@
 
 ## Theory
 
-If we have multiple specialist LLMs, they might outperform larger LLM models. The MicroLLMs can be seen as specialists and experts in their areas, who are called upon by the 'dictator' when a question matches their skillset.
+If we have multiple specialist LLMs, they might outperform larger LLM models. The MicroLLMs can be seen as specialists and experts in their areas, who are called upon by the 'dictator' when a question matches their skillset.x
+
+## Testing
+Pick a base model and create two different LLMs from it. Text embeddings will be generated for the two different models:
+- For the bitcoin model, we input embeddings for the latest bitcoin data.
+- For the football model, we input the latest football data.
+
+This means that each of the LLMs models will have their own unique knowledge and data points.
+From this, lets see if our dictator can decide which model is best module to choose when:
+- we ask for latest bitcoin data
+- we ask for latest football data
