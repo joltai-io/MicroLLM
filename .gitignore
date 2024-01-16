@@ -21,3 +21,7 @@
 go.work
 
 *.env
+
+# Env files
+*.venv
+myenv
