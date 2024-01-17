@@ -22,10 +22,14 @@ If we have multiple specialist LLMs, they might outperform larger LLM models. Th
 
 ## Testing
 Pick a base model and create two different LLMs from it. Text embeddings will be generated for the two different models:
-- For the bitcoin model, we input embeddings for the latest bitcoin data.
-- For the football model, we input the latest football data.
+- For the Ethereum model, we input embeddings for the latest bitcoin data.
+- For the Football model, we input the latest football data.
 
 This means that each of the LLMs models will have their own unique knowledge and data points.
 From this, lets see if our dictator can decide which model is best module to choose when:
-- we ask for latest bitcoin data
+- we ask for latest Ethereum data
 - we ask for latest football data
+
+## Resources
+- AIJason: https://www.youtube.com/watch?v=c_nCjlSB1Zk
+- Andrej Karpathy: https://www.youtube.com/@AndrejKarpathy
