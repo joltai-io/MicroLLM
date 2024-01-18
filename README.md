@@ -1,6 +1,6 @@
 # Research Notes
 
-> **Disclaimer:** The information below isn't backed by any research, it's just something to test out. 
+> **Disclaimer:** The information below isn't backed by any research yet, it's an ongoing discovery to test out. 
 
 ![Bee Image](./img/bee.png)
 
